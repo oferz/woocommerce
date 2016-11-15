@@ -32,6 +32,7 @@ class WC_Data_Store {
 		'customer-session' => 'WC_Customer_Data_Store_Session',
 		'coupon'           => 'WC_Coupon_Data_Store_CPT',
 		'payment-token'    => 'WC_Payment_Token_Data_Store_Table',
+		'shipping-zone'    => 'WC_Shipping_Zone_Data_Store_Table',
 	);
 	/**
 	 * Contains the name of the current data store's class name.
